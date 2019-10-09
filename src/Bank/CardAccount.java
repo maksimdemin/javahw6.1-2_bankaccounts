@@ -1,6 +1,5 @@
 package Bank;
 
-import java.util.Queue;
 
 public class CardAccount extends PaymentAccount {
 

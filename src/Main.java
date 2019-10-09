@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Payment Account");
+        System.out.println("\nPayment Account");
         PaymentAccount paymentAccount = new PaymentAccount(10000);
         System.out.println("Currently balance: " + paymentAccount.requestBalance());
         paymentAccount.withdrawalCash(1000);
