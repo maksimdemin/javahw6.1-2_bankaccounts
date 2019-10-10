@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="808d0031-c278-470f-8a31-bfc51c84046f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/CardAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/CardAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/CardAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/CardAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank/DepositoryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/DepositoryAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +26,14 @@
   </component>
   <component name="ProjectId" id="1Rsz0hhYzBWNQVX5cRuPW0mo9ZB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -109,5 +117,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1395" height="238" key="GridCell.Tab.0.bottom" timestamp="1570650177631">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1395" height="238" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1570650177631" />
+    <state width="1395" height="238" key="GridCell.Tab.0.center" timestamp="1570650177630">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1395" height="238" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1570650177630" />
+    <state width="1395" height="238" key="GridCell.Tab.0.left" timestamp="1570650177629">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1395" height="238" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1570650177629" />
+    <state width="1395" height="238" key="GridCell.Tab.0.right" timestamp="1570650177631">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1395" height="238" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1570650177631" />
+    <state x="413" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1570650074331">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="413" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1570650074331" />
   </component>
 </project>
