@@ -2,6 +2,8 @@ import Bank.CardAccount;
 import Bank.DepositoryAccount;
 import Bank.PaymentAccount;
 
+import java.time.LocalDate;
+
 
 public class Main {
 
@@ -18,11 +20,13 @@ public class Main {
         System.out.println("Currently balance: " + paymentAccount.requestBalance());
 
         System.out.println("\nDepository Account");
-        DepositoryAccount depositoryAccount = new DepositoryAccount(0);
+        DepositoryAccount depositoryAccount = new DepositoryAccount(100000);
+        System.out.println("Current balance depositary account: " + depositoryAccount.requestBalance());
+        depositoryAccount.withdrawalCash(1000);
         System.out.println("Current balance depositary account: " + depositoryAccount.requestBalance());
         depositoryAccount.depositCash(200000);
         System.out.println("Current balance depositary account: " + depositoryAccount.requestBalance());
-        depositoryAccount.withdrawalCash(15000);
+        depositoryAccount.withdrawalCash(15000, DepositoryAccount.getDateStopLock());
         System.out.println("Current balance depositary account: " + depositoryAccount.requestBalance());
 
         System.out.println("\nCard Account");

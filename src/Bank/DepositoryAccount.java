@@ -19,8 +19,7 @@ public class DepositoryAccount extends PaymentAccount {
     }
 
 
-    @Override
-    public void withdrawalCash(long amount) {
+    public void withdrawalCash(long amount, LocalDate dateStopLock) {
         if (requestBalance() < amount) {
             System.out.println("Account balance " + requestBalance() + " not enough to withdraw " + amount);
         }
@@ -34,6 +33,10 @@ public class DepositoryAccount extends PaymentAccount {
                 System.out.println("The amount of " + amount + " was withdrawn from the account");
             }
         }
+    }
+
+    public static LocalDate getDateStopLock() {
+        return dateStopLock;
     }
 
 }
