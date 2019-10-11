@@ -2,9 +2,7 @@ package Bank;
 
 public class PaymentAccount {
 
-    long paymentScore;
-//    long cashIn;
-//    long cashOut;
+    private long paymentScore;
 
     public PaymentAccount(long paymentScore) { // конструктор родительского класса
         this.paymentScore = paymentScore;

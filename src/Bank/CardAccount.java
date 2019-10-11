@@ -1,6 +1,5 @@
 package Bank;
 
-
 public class CardAccount extends PaymentAccount {
 
 
@@ -16,7 +15,7 @@ public class CardAccount extends PaymentAccount {
         } else {
             long bankPercent = amount / 100;
             if (amount <= 100000) {
-                paymentScore = paymentScore - amount - bankPercent;
+                 super.withdrawalCash(requestBalance() - amount - bankPercent);
                 System.out.println("Withdrawn from account " + amount +
                         "\nBank commission is " + bankPercent);
             } else System.out.println("Cash withdrawal limit exceeded. You cannot withdraw the amount " + amount);

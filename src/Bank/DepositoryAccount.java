@@ -15,7 +15,7 @@ public class DepositoryAccount extends PaymentAccount {
     @Override
     public void depositCash(long amount) {
         dateStopLock = LocalDate.now().plusMonths(1); // присваиваем переменной период действия запрета на снятие со счета
-        paymentScore = paymentScore + amount;
+        super.depositCash(requestBalance() + amount);
     }
 
 
@@ -29,7 +29,7 @@ public class DepositoryAccount extends PaymentAccount {
                 System.out.println("You can withdraw cash only after " + periodLock + " days.");
             }
             else {
-                paymentScore = paymentScore - amount;
+                super.withdrawalCash(requestBalance() - amount);
                 System.out.println("The amount of " + amount + " was withdrawn from the account");
             }
         }
