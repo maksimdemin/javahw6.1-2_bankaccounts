@@ -31,7 +31,7 @@ public class Main {
         System.out.println("Current balance depositary account: " + depositoryAccount.requestBalance());
 
         System.out.println("\nCard Account");
-        CardAccount cardAccount = new CardAccount(0);
+        CardAccount cardAccount = new CardAccount();
         System.out.println("Current balance: " + cardAccount.requestBalance());
         cardAccount.depositCash(10000);
         System.out.println("Current balance: " + cardAccount.requestBalance());

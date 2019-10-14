@@ -4,6 +4,10 @@ public class PaymentAccount {
 
     private long paymentScore;
 
+    public PaymentAccount() {
+        paymentScore = 0;
+    }
+
     public PaymentAccount(long paymentScore) { // конструктор родительского класса
         this.paymentScore = paymentScore;
     }

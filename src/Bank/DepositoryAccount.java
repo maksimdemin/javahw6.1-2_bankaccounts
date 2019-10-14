@@ -7,6 +7,10 @@ public class DepositoryAccount extends PaymentAccount {
 
     private LocalDate dateStopLock; // дата, когда закончится срок действия депозитного периода
 
+    public DepositoryAccount() {
+        super();
+    }
+
     public DepositoryAccount(long paymentScore) {
         super(paymentScore);
     }
@@ -15,7 +19,7 @@ public class DepositoryAccount extends PaymentAccount {
     @Override
     public void depositCash(long amount) {
         getDateStopLock();
-        changeBalance(requestBalance() + amount);
+        super.changeBalance(requestBalance() + amount);
         System.out.println("Entered " + amount + " Current balance " + requestBalance());
     }
 
@@ -30,7 +34,7 @@ public class DepositoryAccount extends PaymentAccount {
                 System.out.println("You can withdraw " + amount + " cash only after " + periodLock + " days.");
             }
             else {
-                changeBalance(requestBalance() - amount);
+                super.changeBalance(requestBalance() - amount);
                 System.out.println("The amount of " + amount + " was withdrawn from the account");
             }
         }
