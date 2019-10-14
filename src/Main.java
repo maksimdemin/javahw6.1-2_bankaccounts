@@ -35,7 +35,7 @@ public class Main {
         System.out.println("Current balance: " + cardAccount.requestBalance());
         cardAccount.depositCash(10000);
         System.out.println("Current balance: " + cardAccount.requestBalance());
-        cardAccount.withdrawalCash(1000000000);
+        cardAccount.withdrawalCash(1000000);
         cardAccount.withdrawalCash(1000);
         System.out.println("Current balance: " + cardAccount.requestBalance());
         cardAccount.withdrawalCash(1500);

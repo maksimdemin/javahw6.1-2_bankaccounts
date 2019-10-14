@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="808d0031-c278-470f-8a31-bfc51c84046f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/CardAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/CardAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/DepositoryAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/DepositoryAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/PaymentAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Bank/PaymentAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaM6HW6.1Bank/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bank/CardAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/CardAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bank/DepositoryAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/DepositoryAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bank/PaymentAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bank/PaymentAccount.java" afterDir="false" />
