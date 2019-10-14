@@ -8,9 +8,9 @@ public class PaymentAccount {
         this.paymentScore = paymentScore;
     }
 
-
     public void depositCash(long cashIn) { // метод для пополнения счета (внесение наличных)
         paymentScore = paymentScore + cashIn;
+        System.out.println("Entered " + cashIn + " Current balance " + requestBalance());
     }
 
 
@@ -20,8 +20,13 @@ public class PaymentAccount {
         }
         else if (cashOut <= 1000000) {
             paymentScore = paymentScore - cashOut;
+            System.out.println("Withdrawal " + cashOut + " Current balance " + requestBalance());
         }
         else System.out.println("Cash withdrawal limit exceeded. You cannot withdraw the amount " + cashOut);
+    }
+
+    void changeBalance(long paymentScore) { // метод для обновления баланса в дочерних методах
+        this.paymentScore = paymentScore;
     }
 
 

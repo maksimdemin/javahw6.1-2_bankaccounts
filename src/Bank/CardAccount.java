@@ -7,17 +7,15 @@ public class CardAccount extends PaymentAccount {
         super(paymentScore);
     }
 
-
     @Override
     public void withdrawalCash(long amount) {
         if (requestBalance() < amount) {
-            System.out.println("Account balance " + requestBalance() + " not enough to withdraw " + amount);
+            System.out.println("Current balance " + requestBalance() + " not enough to withdraw " + amount);
         } else {
             long bankPercent = amount / 100;
             if (amount <= 100000) {
-                 super.withdrawalCash(requestBalance() - amount - bankPercent);
-                System.out.println("Withdrawn from account " + amount +
-                        "\nBank commission is " + bankPercent);
+                 changeBalance(requestBalance() - amount - bankPercent);
+                System.out.println("Withdrawal from account " + amount + " Bank commission is " + bankPercent);
             } else System.out.println("Cash withdrawal limit exceeded. You cannot withdraw the amount " + amount);
         }
     }
